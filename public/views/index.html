@@ -1,0 +1,92 @@
+<select class="selectpicker pick-server">
+    <option value="" data-translate="index.pickserver"></option>
+</select>
+<select class="selectpicker add-widget">
+    <option value="" data-translate="index.addwidget"></option>
+</select>
+<hr>
+
+<div class="grid-row-container"></div>
+<div class="widgets-unsorted hidden"></div>
+<div class="templates hidden">
+    <div class="grid-row large">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="grid-column"></div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-row medium">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="grid-column"></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="grid-column"></div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-row small">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="grid-column"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="grid-column"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="grid-column"></div>
+            </div>
+        </div>
+    </div>
+    <div class="widget">
+        <div class="widget-padding">
+            <div class="widget-icons">
+                <a href="#widgets" class="update page-link hidden"><span class="glyphicon glyphicon-info-sign"
+                                                                         data-tooltip="index.tooltip.newversion"></span></a>
+                <span class="icon" data-id="content" data-tooltip="index.tooltip.content"><span
+                        class="glyphicon glyphicon-repeat"></span></span>
+                <span class="icon" data-id="readme" data-tooltip="index.tooltip.readme"><span
+                        class="glyphicon glyphicon-question-sign"></span></span>
+                <span class="icon" data-id="layout" data-tooltip="index.tooltip.layout"><span
+                        class="glyphicon glyphicon-tasks"></span></span>
+                <span class="icon" data-id="options" data-tooltip="index.tooltip.options"><span
+                        class="glyphicon glyphicon-cog"></span></span>
+            </div>
+            <h4 class="widget-title collapsable-trigger"></h4>
+            <div class="widget-readme hidden"></div>
+            <div class="widget-options hidden">
+                <div class="options"></div>
+                <div class="spacer"></div>
+                <div style="text-align: right">
+                    <span class="widget-delete btn btn-danger" data-translate="index.widget.delete"></span>
+                </div>
+            </div>
+            <div class="widget-layout hidden">
+                <div class="options">
+                    <div class="option select" data-id="size">
+                        <div class="title spacer">
+                            <strong data-translate="index.widget.size.title"></strong>
+                            <small data-translate="index.widget.size.info"></small>
+                        </div>
+                        <div class="spacer">
+                            <select></select>
+                        </div>
+                    </div>
+                    <div class="option number" data-id="position">
+                        <div class="title spacer">
+                            <strong data-translate="index.widget.position.title"></strong>
+                            <small data-translate="index.widget.position.info"></small>
+                        </div>
+                        <div class="spacer">
+                            <input type="number" step="1" min="0" class="form-control">
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <span class="save-layout btn btn-info" data-translate="save"></span>
+                </div>
+            </div>
+            <div class="widget-content collapsable-target"></div>
+        </div>
+    </div>
+</div>
